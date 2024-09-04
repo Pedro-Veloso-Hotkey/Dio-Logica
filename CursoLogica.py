@@ -1,4 +1,5 @@
           # Primeiro Desafio DIO Logistica 
+          # Feito em Python
 
 nome = "Cegolas"          # ou input para interação com usuário    
 experiencia = int("7000")  # ou input 
