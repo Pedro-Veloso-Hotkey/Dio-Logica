@@ -13,15 +13,15 @@ saldoVitorias = saldo(vitoria, derrota)
 # Estrutura de decisões  
 if saldoVitorias < 10:
     nivel = "Ferro"
-elif 11 <= saldoVitorias < 20:
+elif 11 <= saldoVitorias <= 20:
     nivel = "Bronze"
-elif 21 <= saldoVitorias < 50:
+elif 21 <= saldoVitorias <= 50:
     nivel = "Prata"   
-elif 51 <= saldoVitorias < 80:
+elif 51 <= saldoVitorias <= 80:
     nivel = "Ouro"    
-elif 81 <= saldoVitorias < 90:
+elif 81 <= saldoVitorias <= 90:
     nivel = "Diamante"
-elif 91 <= saldoVitorias < 100:
+elif 91 <= saldoVitorias <= 100:
     nivel = "Lendário"
 elif 101 <= saldoVitorias:
     nivel = "Imortal"
