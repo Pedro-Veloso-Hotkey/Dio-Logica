@@ -54,27 +54,71 @@
 
 # print(idade_permitida_valida)
 #                    ----------x------------
-                 # WHILE
+                 # desafio 1 
 
-nome = "Cegolas"               
-experiencia = int("7000")
+# nome = "Cegolas"               
+# experiencia = int("1000")
 
-if experiencia < 1001:
-        nivel = "Ferro" 
-elif 1001 <= experiencia < 2001:
-        nivel = "Bronze"
-elif 2001 <= experiencia < 5001:
-        nivel = "Prata"
-elif 5001 <= experiencia < 7001:
-        nivel = "Ouro"
-elif 7001 <= experiencia < 8001:
-        nivel = "Platina"
-elif 8001 <= experiencia < 9001:
-        nivel = "Ascendente"
-elif 9001 <= experiencia < 10001:
-        nivel = "Imortal"
-elif 10001 <= experiencia:
-        nivel = "Radiante"
+# if experiencia < 1000:
+#         nivel = "Ferro" 
+# elif 1000 <= experiencia <= 2000:
+#         nivel = "Bronze"
+# elif 2000 <= experiencia <= 5000:
+#         nivel = "Prata"
+# elif 5000 <= experiencia <= 7000:
+#         nivel = "Ouro"
+# elif 7000 <= experiencia <= 8000:
+#         nivel = "Platina"
+# elif 8000 <= experiencia <= 9000:
+#         nivel = "Ascendente"
+# elif 9000 <= experiencia <= 10000:
+#         nivel = "Imortal"
+# elif 10000 <= experiencia:
+#         nivel = "Radiante"
     
-print(f"O Herói de nome {nome} está no nível de {nivel}")
-                             
+# print(f"O Herói de nome {nome} está no nível de {nivel}")
+
+#           ------Funções----------
+
+# def torrar(pao, valor, nome = "Cliente"):
+#     print(f"torrada feita com {pao}")
+#     print(f"Foi um pedido de {nome}") 
+#     print(f"o preço é {valor}") 
+# # Chamando a função com o argumento "pão de forma"
+# torrar("pão de forma","10,90", "Pedro")
+# # torrar("pão integral", "Jose")
+#--------------------------------x---------------------------
+           # Código em JS
+# torrar("pão de forma")
+
+# function torrar(pao){
+#         console.log("torrada feita com " + pao)
+# }
+#---------------------------x----------------------------
+#               Desafio 1
+
+# posicaoInicial = int(input())
+# totalPassos = int(input())
+
+# posicaoFinal = (posicaoInicial + totalPassos)
+
+# print(f"Posição final do heroi {posicaoFinal}")
+
+#-------------------------x--------------------
+
+class Produto:
+    def __init__(self, nome, preco, categoria):
+        self.nome = nome  # Propriedade 'nome'
+        self.preco = preco  # Propriedade 'preço'
+        self.categoria = categoria  # Propriedade 'categoria'
+
+    def exibir_detalhes(self):
+        print(f"Produto: {self.nome}")
+        print(f"Preço: R$ {self.preco:.2f}")
+        print(f"Categoria: {self.categoria}")
+
+# Criando uma instância da classe Produto
+produto1 = Produto("Laptop", 3500.00, "Eletrônicos")
+
+# Chamando o método que exibe os detalhes do produto
+produto1.exibir_detalhes()
